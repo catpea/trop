@@ -1,0 +1,135 @@
+Command {
+  _events: [Object: null prototype] {
+    'option:debug': [Function (anonymous)],
+    'option:small': [Function (anonymous)],
+    'option:pizza-type': [Function (anonymous)]
+  },
+  _eventsCount: 3,
+  _maxListeners: undefined,
+  commands: [],
+  options: [
+    Option {
+      flags: '-d, --debug',
+      required: false,
+      optional: false,
+      variadic: false,
+      mandatory: false,
+      short: '-d',
+      long: '--debug',
+      negate: false,
+      description: 'output extra debugging',
+      defaultValue: undefined
+    },
+    Option {
+      flags: '-s, --small',
+      required: false,
+      optional: false,
+      variadic: false,
+      mandatory: false,
+      short: '-s',
+      long: '--small',
+      negate: false,
+      description: 'small pizza size',
+      defaultValue: undefined
+    },
+    Option {
+      flags: '-p, --pizza-type <type>',
+      required: true,
+      optional: false,
+      variadic: false,
+      mandatory: false,
+      short: '-p',
+      long: '--pizza-type',
+      negate: false,
+      description: 'flavour of pizza',
+      defaultValue: undefined
+    }
+  ],
+  parent: null,
+  _allowUnknownOption: false,
+  _args: [],
+  rawArgs: [
+    '/home/meow/.nvm/versions/node/v14.9.0/bin/node',
+    '/home/meow/Universe/Development/trop/index.mjs',
+    'poem.txt'
+  ],
+  _scriptPath: '/home/meow/Universe/Development/trop/index.mjs',
+  _name: 'index',
+  _optionValues: {},
+  _storeOptionsAsProperties: true,
+  _storeOptionsAsPropertiesCalled: false,
+  _passCommandToAction: true,
+  _actionResults: [],
+  _actionHandler: null,
+  _executableHandler: false,
+  _executableFile: null,
+  _defaultCommandName: null,
+  _exitCallback: null,
+  _aliases: [],
+  _combineFlagAndOptionalValue: true,
+  _hidden: false,
+  _hasHelpOption: true,
+  _helpFlags: '-h, --help',
+  _helpDescription: 'display help for command',
+  _helpShortFlag: '-h',
+  _helpLongFlag: '--help',
+  _hasImplicitHelpCommand: 0,
+  _helpCommandName: 'help',
+  _helpCommandnameAndArgs: 'help [command]',
+  _helpCommandDescription: 'display help for command',
+  args: [ 'poem.txt' ],
+  [Symbol(kCapture)]: false
+}
+<html>
+
+  <head>
+
+    <meta>
+
+  </head>
+
+  <body>
+
+
+    <section>
+      <p>Kosmos</p>
+      <p>By Walt Whitman</p>
+    </section>
+
+    <section>
+      <hr>
+    </section>
+
+    <section>
+      <p>Who includes diversity and is Nature,</p>
+      <p>Who is the amplitude of the earth, and the coarseness and sexuality of the earth, and the great charity of the earth and the equilibrium also,</p>
+      <p>Who has not look’d forth from the windows the eyes for nothing, or whose brain held audience with messengers for nothing,</p>
+    </section>
+
+    <section>
+      <p>Who contains believers and disbelievers, who is the most majestic lover,</p>
+      <p>Who holds duly his or her triune proportion of realism, spiritualism, and of the æsthetic or intellectual,</p>
+      <p>Who having consider’d the body finds all its organs and parts good,</p>
+    </section>
+
+    <section>
+      <p>Who, out of the theory of the earth and of his or her body understands by subtle analogies all other theories,</p>
+      <p>The theory of a city, a poem, and of the large politics of these States;</p>
+    </section>
+
+    <section>
+      <p>Who believes not only in our globe with its sun and moon, but in other globes with their suns and moons,</p>
+    </section>
+
+    <section>
+      <hr>
+    </section>
+
+    <section>
+      <p>Who, constructing the house of himself or herself, not for a day but for all time, sees races, eras, dates, generations,</p>
+      <p>The past, the future, dwelling there, like space, inseparable together.</p>
+    </section>
+
+  </body>
+
+</html>

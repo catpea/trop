@@ -1,0 +1,29 @@
+{
+  "name": "trop",
+  "version": "1.0.0",
+  "description": "Text to Poem Converter",
+  "main": "index.mjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "trop": "index.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/catpea/trop.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/catpea/trop/issues"
+  },
+  "homepage": "https://github.com/catpea/trop#readme",
+  "dependencies": {
+    "commander": "^6.1.0",
+    "fs-extra": "^9.0.1",
+    "lodash": "^4.17.20",
+    "pretty": "^2.0.0"
+  }
+}
