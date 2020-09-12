@@ -107,7 +107,7 @@ program.parse(process.argv);
 
 if (program.debug) console.log(program.opts());
 
-console.log(program);
+
 
 const file = program.args[0];
 
