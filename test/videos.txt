@@ -1,0 +1,18 @@
+<html>
+
+  <head>
+
+    <meta>
+
+  </head>
+
+<body>
+
+
+$ youtube --id BEEFFC00FFEE something
+$youtube -x --id C00FFEE --name "This is a description with \"text\"..."
+
+
+
+</body>
+</html>

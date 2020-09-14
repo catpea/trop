@@ -1,5 +1,5 @@
 # trop
-Text to Poem Converter
+Translate Operational Codes, a spicy text to HTML converter with UNIX line command-like syntax support.
 
 ## Installation
 
@@ -16,6 +16,77 @@ Text to Poem Converter
 trop poem.txt
 
 ```
+
+### Example #0 (commands)
+
+```HTML
+<html>
+
+  <head>
+
+    <meta>
+
+  </head>
+
+<body>
+
+
+$ youtube --id BEEFFC00FFEE something
+
+$youtube -x --id C00FFEE --name "This is a description with \"text\"..."
+
+
+
+</body>
+</html>
+
+```
+
+Output
+
+```html
+
+<html>
+
+  <head>
+
+    <meta>
+
+  </head>
+
+<body>
+
+
+  <p>Result of command "youtube" with argv of ["--id","BEEFFC00FFEE","something"]</p>
+  
+  <p>Result of command "youtube" with argv of ["-x","--id","C00FFEE","--name","This is a description with \"text\"..."]</p>
+
+
+
+
+</body>
+</html>
+
+
+```
+
+The command is parsed into standard object format as follows:
+
+```JavaScript
+
+// first command
+youtube { _: [ 'something' ], id: 'BEEFFC00FFEE' }
+
+// second command
+youtube {
+  _: [],
+  x: true,
+  id: 'C00FFEE',
+  name: 'This is a description with "text"...'
+}
+
+```
+
 
 ### Example #1 (messy HTML)
 

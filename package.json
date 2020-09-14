@@ -22,9 +22,12 @@
   },
   "homepage": "https://github.com/catpea/trop#readme",
   "dependencies": {
+    "arrgv": "^1.0.2",
     "commander": "^6.1.0",
+    "dargs": "^7.0.0",
     "fs-extra": "^9.0.1",
     "lodash": "^4.17.20",
+    "minimist": "^1.2.5",
     "pretty": "^2.0.0"
   }
 }
