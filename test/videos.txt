@@ -1,18 +1,11 @@
 <html>
-
   <head>
-
     <meta>
-
   </head>
-
 <body>
 
-
-$ youtube --id BEEFFC00FFEE something
-$youtube -x --id C00FFEE --name "This is a description with \"text\"..."
-
-
+$ youtube --id sR2v0Pfmzzc --images test/image --title "Hello" something
+  $youtube -x --id sR2v0Pfmzzc --title "This is a description with \"text\"..."
 
 </body>
 </html>

@@ -31,9 +31,8 @@ trop poem.txt
 <body>
 
 
-$ youtube --id BEEFFC00FFEE something
-
-$youtube -x --id C00FFEE --name "This is a description with \"text\"..."
+  $ youtube --id sR2v0Pfmzzc --images test/image --title "Hello" something
+    $youtube -x --id sR2v0Pfmzzc --title "This is a description with \"text\"..."
 
 
 
@@ -57,10 +56,9 @@ Output
 <body>
 
 
-  <p>Result of command "youtube" with argv of ["--id","BEEFFC00FFEE","something"]</p>
-  
-  <p>Result of command "youtube" with argv of ["-x","--id","C00FFEE","--name","This is a description with \"text\"..."]</p>
+  <img title="Hello" src="test/image/yid-sR2v0Pfmzzc.jpg">
 
+  <img title="This is a description with &quot;text&quot;..." src="dist/image/yid-sR2v0Pfmzzc.jpg">
 
 
 
